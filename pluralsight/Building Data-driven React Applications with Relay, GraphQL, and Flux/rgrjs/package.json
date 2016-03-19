@@ -4,19 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "babel-node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "babel-node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "babel-core": "^6.7.2",
     "babel-loader": "^6.2.4",
-    "express": "^4.13.4",
+    "babel-preset-react": "^6.5.0",
     "react": "^0.14.7",
-    "react-dom": "^0.14.7",
-    "webpack": "^2.1.0-beta.4"
-  },
-  "devDependencies": {
-    "webpack": "^2.1.0-beta.4"
+    "react-dom": "^0.14.7"
   }
 }
