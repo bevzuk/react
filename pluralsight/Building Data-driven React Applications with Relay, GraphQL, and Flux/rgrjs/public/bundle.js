@@ -10712,7 +10712,7 @@
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
-	_reactDom2.default.render(_react2.default.createElement(Hi, null), document.getElementById("react"));
+	_reactDom2.default.render(_react2.default.createElement(_Hello2.default, null), document.getElementById("react"));
 
 /***/ },
 /* 89 */
