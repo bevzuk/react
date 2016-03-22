@@ -22,15 +22,3 @@ ReactDOM.render(
     />,
     document.getElementById("react")
 );
-
-console.log(
-    Relay.QL`
-        query Test {
-            store {
-                links {
-                    title
-                }
-          }
-        }
-    `
-);
